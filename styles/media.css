@@ -1,0 +1,34 @@
+
+
+.line1 {
+    font-weight: 700px;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.line2 {
+    font-size: 17px;
+    font-weight: 700px;
+    color: #99999A;
+    width: 295px;
+    height: 80px;
+    margin-bottom: 23px;
+}
+
+.row1 {
+    padding-top: 63px;
+    padding-left: 143px;
+}
+
+.logo {
+    vertical-align: middle;
+    display: inline;
+}
+
+.line3 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 400px;
+}
+
