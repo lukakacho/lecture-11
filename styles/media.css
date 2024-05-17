@@ -1,34 +1,142 @@
+@media only screen and (max-width: 1400px) {
+  .photos img {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 500px;
+  }
 
+  .photos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.line1 {
-    font-weight: 700px;
-    font-size: 26px;
-    color: #FFFFFF;
-    margin-bottom: 23px;
+  .container10 {
+    width: 70%;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .left_side {
+    margin-bottom: 40px;
+  }
+
+.container {
+    width: 80%;
 }
 
-.line2 {
-    font-size: 17px;
-    font-weight: 700px;
-    color: #99999A;
-    width: 295px;
-    height: 80px;
-    margin-bottom: 23px;
+.text {
+    margin-bottom: 30px;
 }
 
-.row1 {
-    padding-top: 63px;
-    padding-left: 143px;
+.input {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo {
-    vertical-align: middle;
-    display: inline;
+.text1 {
+    width: 450px;
+    height: 50px;
 }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+   
+
+
+
+@media only screen and (max-width: 1092px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .left_side {
+    margin-bottom: 40px;
+  }
+
+
+
+   
+.container {
+    width: 60%;
+}
+
+}
+
+@media only screen and (max-width: 935px) {
+  .photos img {
+    width: 450px;
+    height: 300px;
+  }
+
+
+.main-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    gap: 30px;
+}
+
+.text {
+    width: 500px;
+    height: 300px;
+}
+
+.text1 {
+    width: 400px;
+}
+
+.container {
+    width: 50%;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+  .right_side {
+    gap: 30px;
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
 .line3 {
     color: #FFFFFF;
     font-size: 21px;
     font-weight: 400px;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
