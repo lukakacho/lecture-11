@@ -13,66 +13,58 @@
     align-items: center;
   }
 
-  .container10 {
-    width: 70%;
-  }
-
-  .flex {
-    flex-direction: column;
-  }
-
   .left_side {
     margin-bottom: 40px;
   }
 
-.container {
-    width: 80%;
-}
+  .text {
+    width: 650px;
+  }
 
-.text {
-    margin-bottom: 30px;
-}
-
-.input {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text1 {
-    width: 450px;
-    height: 50px;
+  .first {
+    width: 400px;
+  }
 }
 
 
-
-
-}
 
 
 @media only screen and (max-width: 1200px) {
-    .container {
-        width: 70%;
-    }
+ .flex {
+  flex-direction: column;
+ }
+
+.text {
+  width: 500px;
 }
-   
 
 
+}
 
 @media only screen and (max-width: 1092px) {
-  .flex {
-    flex-direction: column;
-  }
 
-  .left_side {
-    margin-bottom: 40px;
-  }
+.input {
+  flex-direction: column;
+}
 
+.text {
+  margin-bottom: 40px;
+  width: 700px;
+  height: 250px;
+}
 
+.text1 {
+  margin-left: 0%;
+  height: 50px;
+  width: 500px;
+}
+.contact2 {
+  font-size: 35px;
+  width: 430px;
+}
 
-   
-.container {
-    width: 60%;
+.first {
+  width: 350px;
 }
 
 }
@@ -83,30 +75,37 @@
     height: 300px;
   }
 
-
-.main-section {
+  .main-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
     margin-bottom: 200px;
     gap: 30px;
-}
+  }
 
-.text {
+  .text {
     width: 500px;
     height: 300px;
-}
+  }
 
-.text1 {
+  .text1 {
     width: 400px;
+  }
+
+.contact1 {
+  font-size: 16px;
 }
 
-.container {
-    width: 50%;
+.contact2 {
+  font-size: 30px;
+  width: 370px;
 }
 
+
 }
+
+
 
 @media only screen and (max-width: 800px) {
   .right_side {
@@ -120,13 +119,110 @@
     align-items: flex-start;
   }
 
-.line3 {
-    color: #FFFFFF;
-    font-size: 21px;
-    font-weight: 400px;
+  .photos img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .text {
+    width: 400px;
+  }
+  .right_side {
+    width: 300px;
+  }
+
+  .navs {
+    width: 300px;
+    padding-bottom: 30px;
+  }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .contact1 {
+    font-size: 12px;
+  }
+
+  .contact2 {
+    font-size: 20px;
+    width: 245px;
+    line-height: 30px;
+  }
+
+  .first {
+    width: 200px;
+  }
+.text {
+  height: 150px;
+  width: 300px;
+}
+
+.text1 {
+  height: 30px;
+  width: 300px;
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
